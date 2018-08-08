@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <CheckBoxPreference
+        android:id="@+id/AL1_EN"
+        android:defaultValue="false"
+        android:key="ET1"
+        android:title="Enable Timer 1" />
+    <EditTextPreference
+        android:id="@+id/AL1_TM"
+        android:defaultValue="0"
+        android:key="AL1_T"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Alarm 1 (Seconds)"
+        android:visibility="invisible" />
+    <CheckBoxPreference
+        android:id="@+id/AL2_EN"
+        android:defaultValue="false"
+        android:key="ET2"
+        android:title="Enable Timer 2" />
+    <EditTextPreference
+        android:id="@+id/AL2_TM"
+        android:defaultValue="0"
+        android:key="AL2_T"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Alarm 2 (Seconds)"
+        android:visibility="invisible" />
+    <CheckBoxPreference
+        android:id="@+id/AL3_EN"
+        android:defaultValue="false"
+        android:key="ET3"
+        android:title="Enable Timer 3" />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="AL3_TM"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Alarm 3 (Seconds)"
+        android:visibility="invisible" />
+    <CheckBoxPreference
+        android:id="@+id/AUTOSHUT"
+        android:defaultValue="false"
+        android:key="EN_AS"
+        android:title="Enable AutoShut" />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="AS_TM"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Time for AutoClose (Seconds)"
+        android:visibility="invisible" />
+</PreferenceScreen>

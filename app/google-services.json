@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466756295704",
+    "firebase_url": "https://smarthome-3228c.firebaseio.com",
+    "project_id": "smarthome-3228c",
+    "storage_bucket": "smarthome-3228c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466756295704:android:03b14e84c9951ee1",
+        "android_client_info": {
+          "package_name": "net.pcswv.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466756295704-orr4v5f7sgp49c3iuva8443h2d5l1g1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.pcswv.smarthome",
+            "certificate_hash": "430f18ca5e04f2ec2708b195e360760594a4720b"
+          }
+        },
+        {
+          "client_id": "466756295704-nd0i141aupbqo88mg1iodu6na7o47aq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGZh48ZX8rU6QYOtZGsrYexuRIavFLdSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466756295704-nd0i141aupbqo88mg1iodu6na7o47aq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
